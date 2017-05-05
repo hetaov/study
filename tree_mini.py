@@ -29,10 +29,14 @@ if __name__ == "__main__":
 
     E = [(G[u][v], u, v) for u in G for v in G[u]]
 
+    T = set()
+
     print C
     for _, u, v in sorted(E):
 
         if link(C, u) != link(C, v):
             union(C, u, v)
+            T.add((u, v))
 
     print C
+    print T
