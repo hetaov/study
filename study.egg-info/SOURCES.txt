@@ -1,0 +1,7 @@
+setup.py
+study.egg-info/PKG-INFO
+study.egg-info/SOURCES.txt
+study.egg-info/dependency_links.txt
+study.egg-info/top_level.txt
+test_module/__init__.py
+test_module/first.py
